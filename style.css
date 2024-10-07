@@ -31,12 +31,13 @@ header > h1 {
     font-variant: small-caps;
     font-family: var(--fonte2);
     font-size: 3.5em;
-}
-header > p {
-    padding-top: 50px;
+    }
     
-    
-}
+    header > p {
+        margin-top: -10px;  /* Ajusta o espaçamento entre o h1 e o p */ 
+        padding: 10px;
+          /* Remove o padding superior */
+    }
  header a, footer a {
     color: white;
     text-decoration: none;
